@@ -7,8 +7,8 @@ provider "google" {
 # https://www.terraform.io/language/settings/backends/gcs
 terraform {
   backend "gcs" {
-    bucket = "tfstate"
-    prefix = "terraform/state"
+    bucket = "tfstate_tokyo-analyst-390015"
+    prefix = "terraform_tokyo-analyst-390015/state"
   }
   required_providers {
     google = {
